@@ -87,7 +87,8 @@
 .seccion2__title,
 .seccion3__title,
 .page1__title,
-.pg2__title {
+.pg2__title,
+.pg3__title {
     font-family: 'Pacifico', cursive;
 }
 
@@ -95,7 +96,8 @@
 .seccion1__bt,
 .seccion2__bt,
 .seccion3__bt,
-.pg2__btn {
+.pg2__btn,
+.pg3__btn {
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
@@ -105,7 +107,8 @@
 .seccion1__bt a,
 .seccion2__bt a,
 .seccion3__bt a,
-.pg2__btn a {
+.pg2__btn a,
+.pg3__btn a {
     background-color: black;
     min-width: 120px;
     padding: 4px 8px;
@@ -119,10 +122,12 @@
 .seccion1__bt a:hover,
 .seccion2__bt a:hover,
 .seccion3__bt a:hover,
-.pg2__btn a:hover {
+.pg2__btn a:hover,
+.pg3__btn a:hover {
     color: black;
     background-color: #FCDEA4;
 }
+
 /* Seccion 3 ubicacion e info */
 .seccion3__foto {
     width: 70%;
@@ -157,4 +162,29 @@
 .pg2__item:hover {
     filter: none;
 
+}
+
+/* Pagina 3: Servicios */
+
+.contactus__pg3 {
+    background-color:#DF9C16;
+}
+
+/* Animación */
+@keyframes efecto {
+    0% {
+        background-color:#FCDEA4;
+    }
+    50% {
+        background-color:#E3E3E3;
+        transition: ease-in-out;
+    }
+    100% {
+        background-color:#FFD600;
+    }
+}
+
+.contactus__pg3 {
+    background-color:#F7A400;
+    animation: efecto 1s linear 0s infinite alternate;
 }

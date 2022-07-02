@@ -71,7 +71,6 @@
     </header>
 
     <!--Main-->
-
     <main class="container-fluid">
         <!-- Intro -->
         <div class="intro__page4 row p-2 mb-4 text-white bg-dark ">
@@ -79,6 +78,70 @@
               <h1 class="display-4 text-center py-4 mt-2 animate__animated animate__zoomIn">Contacto</h1>                            
             </div>
         </div>
+
+        <!-- Contacto -->
+    <div class="container-fluid row justify-content-center bg-white py-4">
+        <h2 class="text-center pt-3 pb-2 fs-3">Contactate con nosotros</h2>
+        
+        <div class="col-6 col-sm-4">
+            <p class="text-justify">Dejanos tu mensaje por este medio o a través de nuestras redes. Muchas gracias!</p>           
+            <nav>                  
+                <ul>        
+                    <li>Tel: 011-55555555</li>
+                    <li> <!-- Aqui debe ir el link Whatsapp, aun no lo tengo -->
+                        <img src="../img/redes/whatsapp.png" alt="Whatsapp" width="24"> 011-55665222
+                    </li>                    
+                </ul>                   
+            </nav>
+
+            <h3 class="text-justify fs-4 pt-3 pb-2">Seguinos en nuestras redes</h3>
+        
+            <nav>                   
+                <ul>                        
+                    <li class="lh-lg">
+                        <a href="https://www.instagram.com/cecil_pasteleria/" target="_blank" class="text-reset text-decoration-none">
+                            <img src="../img/redes/Instagram.png" alt="Instagram" width="24"> Instagram
+                        </a>
+                    </li>                        
+                    <li class="lh-lg">
+                        <a href="https://www.facebook.com/CecilPasteleria/" target="_blank" class="text-reset text-decoration-none">
+                            <img src="../img/redes/facebook.png" alt="Facebook" width="24"> Facebook
+                        </a>
+                    </li>
+                </ul>                
+            </nav>
+        </div>
+
+        <div class="col-6 col-sm-4">
+            <form action="enviar.php" method="get">
+                <fieldset class="bg-light m-1 py-4 px-5 rounded">                        
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="First name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- ubicación -->
+    <div class="container-fluid row justify-content-center py-4 bg-white">
+        <h2 class="text-center pt-3 pb-2">Dónde encontrarnos</h2> 
+        <div class="card col-8">
+          <div class="card-body">         
+            <p class="card-text fs-6 fst-italic">Encontranos en Sgto. Cabral N° 94, de Míercoles a Domingo de 9 a 13hs y de 16 a 20hs.</p>        
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13090.208046965412!2d-58.5623783!3d-34.8925942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28d9836b9e158835!2sCecil%20pasteler%C3%ADa!5e0!3m2!1ses-419!2sar!4v1656091362969!5m2!1ses-419!2sar" width="500" height="300" style="border:8;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="card-img-bottom"></iframe>
+        </div>
+    </div>
 
 
 
@@ -89,7 +152,7 @@
 
     <!-- footer -->
     <footer class="container-fluid bg-color-propio">
-        <nav class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">             
+        <nav class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">             
             <div class="col mb-3">
                 <a href="../index.html" class="d-flex justify-content-center align-items-start mb-3">
                     <img src="../img/logo400px.png" class="mi-logo" alt="Logo Cecil Pastelería">
@@ -150,10 +213,7 @@
                 </ul>
             </div>
         </nav>
-    </footer>
-
-
-    
+    </footer>    
 <!-- script boostrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
