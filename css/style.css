@@ -86,14 +86,16 @@
 .seccion1__title,
 .seccion2__title,
 .seccion3__title,
-.page1__title {
+.page1__title,
+.pg2__title {
     font-family: 'Pacifico', cursive;
 }
 
 /* Sección 2 Equipo */
 .seccion1__bt,
 .seccion2__bt,
-.seccion3__bt {
+.seccion3__bt,
+.pg2__btn {
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
@@ -102,7 +104,8 @@
 
 .seccion1__bt a,
 .seccion2__bt a,
-.seccion3__bt a {
+.seccion3__bt a,
+.pg2__btn a {
     background-color: black;
     min-width: 120px;
     padding: 4px 8px;
@@ -115,7 +118,8 @@
 
 .seccion1__bt a:hover,
 .seccion2__bt a:hover,
-.seccion3__bt a:hover {
+.seccion3__bt a:hover,
+.pg2__btn a:hover {
     color: black;
     background-color: #FCDEA4;
 }
@@ -136,10 +140,21 @@
     text-decoration: underline;
 }
 
-/* Página 2: Nosotros */
+/* Página 1: Nosotros */
 
 .foto1__pg1 {
     width: 70%;
     height: auto;
 }
 
+/* Pagina 2: Productos */
+
+.pg2__item {
+    filter: grayscale(1);
+
+}
+
+.pg2__item:hover {
+    filter: none;
+
+}
