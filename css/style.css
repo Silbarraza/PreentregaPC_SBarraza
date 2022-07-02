@@ -5,17 +5,110 @@
     box-sizing: border-box;
 }
 
+/* body {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #422419 74%);
+    background-repeat: no-repeat;    
+} */
+
+/* Header */
+.mi-logo {
+    width: 100px;
+    height: auto;
+    padding: 4px 0;
+}
+
 .bg-color-propio {
     background-color: #DF9C16;
     background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
 }
 
-.mi-logo {
-    width: 120px;
-    height: auto;
-    padding: 4px 0;
+/* Main */
+/* intro1 */
+.intro1__index {
+    background-image: url(..//img/bg/front-view-1800px.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+.intro1__items {
+    background-color:rgba(0, 0, 0, 0.35);
+    text-shadow: rgb(11, 11, 11) 2px 2px 1px;    
+}
+
+.intro1__items h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.intro1__items p {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* Media queries intro1 */
+
+@media (max-width:768px) {
+    .intro1__items h1 {
+        font-size: 40px;       
+    }
+    
+    .intro1__items p {
+        font-size: 20px;
+    }
+}
+
+/* Sección 1 Productos */
+
+.bg-color-seccion {
+    background-color: #d9d9d9;
+    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+
+.seccion1__title,
+.seccion2__title,
+.seccion3__title {
+    font-family: 'Pacifico', cursive;
+}
+
+/* Sección 2 Equipo */
+
+.seccion2__bt,
+.seccion3__bt {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 32px 0 16px 0px;   
+}
+
+.seccion2__bt a,
+.seccion3__bt a {
+    background-color: black;
+    min-width: 120px;
+    padding: 4px 8px;
+    border-radius: 7px;
+    color: #E3E3E3;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.seccion2__bt a:hover,
+.seccion3__bt a:hover {
+    color: black;
+    background-color: #FCDEA4;
+}
+/* Seccion 3 ubicacion e info */
+.seccion3__foto {
+    width: 70%;
+    height: auto;
+}
+
+
+
+/* Footer */
 .info__footer h5 {
     font-family: 'Pacifico', cursive;
 

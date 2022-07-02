@@ -8,7 +8,7 @@
 
     <!-- Logo -->
     <link rel="shortcut icon" href="./img/logo400px.png">
-
+    
     <!-- Hoja de estilo propia -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -20,6 +20,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Link con libreria wow animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -64,7 +69,161 @@
         
     </header>
 
-    <main class="container-fluid">
+    <main class="container-fluid bg-color-seccion">
+        <!-- Intro -->
+        <div class="intro1__index row p-4 mb-4 text-white bg-dark ">
+            <div class="intro1__items col-fluid px-0 animate__animated animate__zoomIn">
+              <h1 class="display-4 text-center mt-2 animate__animated animate__zoomIn">Cecil pastelería</h1>
+              <p class="lead text-center text-uppercase fst-italic fw-bolder text-white lh-lg mt-4 mb-2 animate__animated animate__zoomIn">Comprometidos con el sabor</p>              
+            </div>
+        </div>
+              
+        <div class="row justify-content-center pb-4">
+            <!-- Sección Productos: Categorías -->
+            <section class="seccion1__index col-10 mx-2 border-bottom">
+                <h2 class="seccion1__title text-center pt-2">Nuestros productos</h2>
+                
+                <div class="row py-3">
+                    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/bg/bgpasteleria.png" class="d-block w-100" alt="Cateoría pastelería">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="#" class="text-decoration-none text-reset"><h5>Pastelería</h5></a>
+                            </div>
+                          </div>
+                          
+                          <div class="carousel-item">
+                            <img src="./img/bg/bgbfrancesa0.png" class="d-block w-100" alt="Categoría bollería francesa">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="#" class="text-decoration-none text-reset"><h5>Bollería francesa</h5></a>
+                            </div>
+                          </div>
+                          
+                          <div class="carousel-item">
+                            <img src="./img/bg/bgalfajores0.png" class="d-block w-100" alt="Categoría alfajores y chocolatería">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="#" class="text-decoration-none text-reset"><h5>Alfajores y chocolatería</h5></a> 
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <img src="./img/bg/bgpanificados.png" class="d-block w-100" alt="Categoría panificados">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="#" class="text-decoration-none text-reset"><h5>Panificados</h5></a>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="seccion1__index col-10 mx-2 border-bottom">
+                <h2 class="seccion1__title text-center pt-2">Nuestros productos</h2>
+                <div class="row">
+                    <div id="carouselExampleControls" class="carousel slide col-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/bg/bgpasteleria.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/bg/bgbfrancesa0.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/bg/bgalfajores0.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <p>trabajamos con los mejores inggredientes</p>
+
+                </div>
+            </section>
+            
+            
+            <!-- Sección Equipo -->
+            <section class="seccion2__index row justify-content-center border-bottom pt-5 pb-2">
+                <h2 class="seccion2__title text-center pt-2">Quiénes somos</h2>
+                                
+                <div class="col-10 align-items-center">
+                    <p class="text-center px-4">Somos los hermanos Formia, amamos la pasteleria y traducimos nuestra pasión en cada una de nuestras elaboraciones.</p>
+                    
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                        <div class="col">
+                          <div class="card">
+                            <img src="./img/nosotros/edu.png" class="card-img-top p-2" alt="Chef pastelero Eduardo">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Eduardo</h5>
+                              <p class="card-text text-center fst-italic">Chef pastelero</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card">
+                            <img src="./img/nosotros/max.png" class="card-img-top p-2" alt="Chef pas Maximiliano">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Maximiliano</h5>
+                              <p class="card-text text-center fst-italic">Chef pastelero</p>
+                            </div>
+                          </div>
+                        </div>                                   
+                    </div>                                   
+                </div>
+                <nav class="seccion2__bt justify-content-center">                        
+                    <a href="./pages/productos.html">Ver más</a>
+                </nav>
+            </section>
+
+            <!-- Sección ubicacion e info -->
+            <section class="seccion3__index row justify-content-center border-bottom pt-5 pb-2">
+                
+                <h2 class="seccion3__title text-center pt-2">Dónde encontrarnos</h2>
+
+                <div class="clearfix col-10 pt-2 bg-white rounded">
+                    <img src="./img/local/frentelocal.png" class="seccion3__foto col-md-6 float-md-end mb-3 ms-md-3 rounded" alt="Foto puerta local">
+                  
+                    <p class="py-2">
+                        Nuestro local se encuentra en el corazón de Tristán Suarez a sólo cuatro cuadras de la estación y muy cerquita del centro.
+                    </p>
+
+                    <nav class="seccion3__bt align-items-end">                        
+                        <a href="./pages/productos.html">Contactanos</a>
+                    </nav>                  
+                </div>
+
+            </section>
+        </div>
+
+
+
 
 
 
@@ -75,7 +234,7 @@
 
     <!-- footer -->
     <footer class="container-fluid bg-color-propio">
-        <nav class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">             
+        <nav class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">             
             <div class="col mb-3">
                 <a href="./index.html" class="d-flex justify-content-center align-items-start mb-3">
                     <img src="./img/logo400px.png" class="mi-logo" alt="Logo Cecil Pastelería">
@@ -136,8 +295,7 @@
                 </ul>
             </div>
         </nav>
-    </footer>   
-    
+    </footer>    
 <!-- script boostrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
