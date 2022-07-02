@@ -88,7 +88,9 @@
 .seccion3__title,
 .page1__title,
 .pg2__title,
-.pg3__title {
+.pg3__title,
+.pg4__title,
+.pg4__subtitle {
     font-family: 'Pacifico', cursive;
 }
 
@@ -97,7 +99,8 @@
 .seccion2__bt,
 .seccion3__bt,
 .pg2__btn,
-.pg3__btn {
+.pg3__btn,
+.pg4__btn {
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
@@ -108,7 +111,8 @@
 .seccion2__bt a,
 .seccion3__bt a,
 .pg2__btn a,
-.pg3__btn a {
+.pg3__btn a,
+.pg4__btn a {
     background-color: black;
     min-width: 120px;
     padding: 4px 8px;
@@ -123,7 +127,8 @@
 .seccion2__bt a:hover,
 .seccion3__bt a:hover,
 .pg2__btn a:hover,
-.pg3__btn a:hover {
+.pg3__btn a:hover,
+.pg4__btn a:hover {
     color: black;
     background-color: #FCDEA4;
 }
