@@ -74,7 +74,7 @@
 }
 
 /* Sección 2 Equipo */
-
+.seccion1__bt,
 .seccion2__bt,
 .seccion3__bt {
     display: flex;
@@ -83,6 +83,7 @@
     padding: 32px 0 16px 0px;   
 }
 
+.seccion1__bt a,
 .seccion2__bt a,
 .seccion3__bt a {
     background-color: black;
@@ -95,6 +96,7 @@
     align-items: center;
 }
 
+.seccion1__bt a:hover,
 .seccion2__bt a:hover,
 .seccion3__bt a:hover {
     color: black;
