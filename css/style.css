@@ -25,19 +25,35 @@
 
 /* Main */
 /* intro1 */
-.intro1__index {
+.intro1__index,
+.intro__page1,
+.intro__page2,
+.intro__page3,
+.intro__page4 {
+    height: 300px;
+    width: auto;
     background-image: url(..//img/bg/front-view-1800px.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.intro1__items {
+.intro1__items,
+.intro__itemspg1,
+.intro__itemspg2,
+.intro__itemspg3,
+.intro__itemspg4 {
     background-color:rgba(0, 0, 0, 0.35);
     text-shadow: rgb(11, 11, 11) 2px 2px 1px;    
 }
 
-.intro1__items h1 {
+.intro1__items h1,
+.intro__itemspg1 h1,
+.intro__itemspg2 h1,
+.intro__itemspg3 h1,
+.intro__itemspg4 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 60px;
     letter-spacing: 2px;
@@ -69,7 +85,8 @@
 
 .seccion1__title,
 .seccion2__title,
-.seccion3__title {
+.seccion3__title,
+.page1__title {
     font-family: 'Pacifico', cursive;
 }
 
@@ -108,8 +125,6 @@
     height: auto;
 }
 
-
-
 /* Footer */
 .info__footer h5 {
     font-family: 'Pacifico', cursive;
@@ -119,5 +134,12 @@
 .info__footer ul li a:hover {
     color: #212529;
     text-decoration: underline;
+}
+
+/* Página 2: Nosotros */
+
+.foto1__pg1 {
+    width: 70%;
+    height: auto;
 }
 
